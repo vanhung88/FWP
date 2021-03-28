@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  body {
+    background-color: #f37e7e; //mau nen ca trang
+  }
+  
+  .app {
+    overflow: hidden;
+  }
+
+.header{
+    
+    display:flex;
+    justify-content:center ;
+}
+.header-nav{
+    width: 80%;
+    height:80px ;
+    background-color: rgb(255, 255, 255);
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+    .logo{
+        width: 200px;
+       // background-color:rgb(77, 51, 51);
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+          }
+    }
+    .header-list{
+    
+        display:flex;
+        align-items:center;
+        padding:0;
+        .header-item{
+            padding:0 20px;
+            list-style: none;
+            color:hsl(0, 0%, 20%);
+            font-size: 16.5px;
+        }
+        .language{
+            margin-left: 50px;
+            font-size:14px;
+            display:flex;
+            align-items: center;
+            img {
+                width: 25%;
+                border-radius: 1px;
+                padding-right: 5px;
+            }
+            i{
+                padding-left: 3px;
+            }
+        }
+        li.header-item:hover{
+            cursor: pointer;
+            color: hsl(352, 76%, 48%);
+        }
+    }
+}
+
+.slide-video{
+    display:flex;
+    align-items: center;
+    .video{
+        height: 500px ;
+        width: 100%;
+    }
+}
+
+
+// san pham
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(196, 191, 191);
+    &-item {
+        width:100%;
+        height:250px;
+       background-color:#444;
+    }
+}

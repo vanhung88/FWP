@@ -1,0 +1,126 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #f37e7e;
+}
+
+.app {
+  overflow: hidden;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-nav {
+  width: 80%;
+  height: 80px;
+  background-color: white;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav .logo {
+  width: 200px;
+}
+
+.header-nav .logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.header-nav .header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.header-nav .header-list .header-item {
+  padding: 0 20px;
+  list-style: none;
+  color: #333333;
+  font-size: 16.5px;
+}
+
+.header-nav .header-list .language {
+  margin-left: 50px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav .header-list .language img {
+  width: 25%;
+  border-radius: 1px;
+  padding-right: 5px;
+}
+
+.header-nav .header-list .language i {
+  padding-left: 3px;
+}
+
+.header-nav .header-list li.header-item:hover {
+  cursor: pointer;
+  color: #d71d36;
+}
+
+.slide-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide-video .video {
+  height: 500px;
+  width: 100%;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #c4bfbf;
+}
+
+.product-item {
+  width: 100%;
+  height: 250px;
+  background-color: #444;
+}
+/*# sourceMappingURL=index.css.map */
