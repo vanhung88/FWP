@@ -178,25 +178,17 @@ html {
   font-weight: 400;
 }
 
+.news .news-list .dayOfNews {
+  margin-right: 20px;
+}
+
 .news .news-list .subject-news .btn {
   width: 100px;
   font-size: 11px;
 }
 
-.box-chat {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.box-chat .message-box {
-  width: 100%;
-}
-
 .box-chat .wrapper {
+  padding-left: 63px;
   font-family: 'Poppins', sans-serif;
   -webkit-box-pack: end;
       -ms-flex-pack: end;

@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>EWP</title>
+    <title>FWP</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,19 +24,19 @@
                 <div class="header-nav">
                     <div class="logo">
                         <a href="">
-                            <img src="./image/fwp.png"  alt="Your Store" class="img-responsive">
+                            <img src="./images/fwp.png"  alt="Your Store" class="img-responsive">
                         </a>
                     </div>
                     <ul class="header-list">
                         <li class="header-item">Sản Phẩm dịch vụ</li>
-                        <li class="header-item">Vị trí địa lý</li>
+                        <li class="header-item">Vị trí đại lý</li>
                         <li class="header-item">Hỗ trợ</li>
                         <li class="header-item">Về Chúng tôi</li> 
                         <li class="header-item">
                             <i class="fas fa-search"></i>
                         </li>
                         <li class="header-item language" >
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAbCAIAAACBclo5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDc3NzFEMTJBRDBGMTFFNTk0QkRFMDQxQ0FGQzdBNkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDc3NzFEMTNBRDBGMTFFNTk0QkRFMDQxQ0FGQzdBNkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpENzc3MUQxMEFEMEYxMUU1OTRCREUwNDFDQUZDN0E2RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpENzc3MUQxMUFEMEYxMUU1OTRCREUwNDFDQUZDN0E2RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph7y5pYAAAIrSURBVHja7Fa9axRBFP+9+djs3cV8GmOiCFcFjYgElCCopbYWaqPYiBBsRexMbSda+1fYKDaCpW0aUcHCD4zRfNzu7e3uzHPmvOKikOxdvLsmj2FZdnbeb957v9+bofWwikGYwIBsH7gzswMBJlDFgvsMbCAmzNDNDRjqKzBnQh5vBNc3acIgp76mWp2LqWrV6YT7B+zyPGLUYuLIpS7GXe670F8ZcVstGUIv1EQ1Qw3qbJ0OWN6SaKMZaQu5d2ADtVAXJ1JEouU8IXU58q4bELN5ePuX/RBAN+cUu5f8Tdl+1pC8x4jJfFPBrQ19JUYGP1zwuYNvbWtoaR1/0lECYiRPxuyaBO2iMyp0SGTkyuk4HN5bo3F23rfJl5qjArui4+Wp/G2JArsreajo6eRaRSrUfFJ6uCpPpj7i7cDZ8+H6o4P2p6TQ/ldWCziP+UoY3Z3hLwq6baqE7FUlejDNm6IgaudyIhbTOU3mrrR+adAqszyWUdmll3umYyZ9IcZok5SG7DvtCeVkPZeq+Qan1BtghmONOh8jBP+Q8f1DW1ePNp6O+alx+O/oEXBKci6VZxrmZVi7MZu+GHZB1x9PRkuH+aPUlyIq2eIHZQfAzKQW4/TZSO3OjPkUeB4pds/sdaV27Yh9r9WpxAuvIFs6uOwRxFTuW5Lb7V9dyVW3zGLU2FVZMBbVUY3tV+2b4r9RBYwU9rvauU12Cwzs5FcA6J2c9q+33dtvAQYAMjTN3IzQbwoAAAAASUVORK5CYII=" alt="">
+                                <img src="data:images/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAbCAIAAACBclo5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDc3NzFEMTJBRDBGMTFFNTk0QkRFMDQxQ0FGQzdBNkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDc3NzFEMTNBRDBGMTFFNTk0QkRFMDQxQ0FGQzdBNkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpENzc3MUQxMEFEMEYxMUU1OTRCREUwNDFDQUZDN0E2RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpENzc3MUQxMUFEMEYxMUU1OTRCREUwNDFDQUZDN0E2RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph7y5pYAAAIrSURBVHja7Fa9axRBFP+9+djs3cV8GmOiCFcFjYgElCCopbYWaqPYiBBsRexMbSda+1fYKDaCpW0aUcHCD4zRfNzu7e3uzHPmvOKikOxdvLsmj2FZdnbeb957v9+bofWwikGYwIBsH7gzswMBJlDFgvsMbCAmzNDNDRjqKzBnQh5vBNc3acIgp76mWp2LqWrV6YT7B+zyPGLUYuLIpS7GXe670F8ZcVstGUIv1EQ1Qw3qbJ0OWN6SaKMZaQu5d2ADtVAXJ1JEouU8IXU58q4bELN5ePuX/RBAN+cUu5f8Tdl+1pC8x4jJfFPBrQ19JUYGP1zwuYNvbWtoaR1/0lECYiRPxuyaBO2iMyp0SGTkyuk4HN5bo3F23rfJl5qjArui4+Wp/G2JArsreajo6eRaRSrUfFJ6uCpPpj7i7cDZ8+H6o4P2p6TQ/ldWCziP+UoY3Z3hLwq6baqE7FUlejDNm6IgaudyIhbTOU3mrrR+adAqszyWUdmll3umYyZ9IcZok5SG7DvtCeVkPZeq+Qan1BtghmONOh8jBP+Q8f1DW1ePNp6O+alx+O/oEXBKci6VZxrmZVi7MZu+GHZB1x9PRkuH+aPUlyIq2eIHZQfAzKQW4/TZSO3OjPkUeB4pds/sdaV27Yh9r9WpxAuvIFs6uOwRxFTuW5Lb7V9dyVW3zGLU2FVZMBbVUY3tV+2b4r9RBYwU9rvauU12Cwzs5FcA6J2c9q+33dtvAQYAMjTN3IzQbwoAAAAASUVORK5CYII=" alt="">
                                 Vietnam
                                 <i class="fas fa-angle-down"></i>                    
                         </li>
@@ -55,7 +56,7 @@
             <div class="product container">
                 <div class="col-3 product-list">
                     <div class="product-item">
-                        <img src="./image/machine.png" alt="" class="product-img">
+                        <img src="./images/machine.png" alt="" class="product-img">
                         <div class="product-group">
                             <div class="product-content">Aliquam Quaerat Voluptatem</div>
                             <div class="product-prize">$122.00</div>
@@ -64,7 +65,7 @@
                 </div>
                 <div class="col-3 product-list">
                     <div class="product-item">
-                        <img src="./image/machine.png" alt="" class="product-img">
+                        <img src="./images/machine.png" alt="" class="product-img">
                         <div class="product-group">
                             <div class="product-content">Aliquam Quaerat Voluptatem</div>
                             <div class="product-prize">$122.00</div>
@@ -73,7 +74,7 @@
                 </div>
                 <div class="col-3 product-list">
                     <div class="product-item">
-                        <img src="./image/machine.png" alt="" class="product-img">
+                        <img src="./images/machine.png" alt="" class="product-img">
                         <div class="product-group">
                             <div class="product-content">Aliquam Quaerat Voluptatem</div>
                             <div class="product-prize">$122.00</div>
@@ -82,7 +83,7 @@
                 </div>
                 <div class="col-3 product-list">
                     <div class="product-item">
-                        <img src="./image/machine.png" alt="" class="product-img">
+                        <img src="./images/machine.png" alt="" class="product-img">
                         <div class="product-group">
                             <div class="product-content">Aliquam Quaerat Voluptatem</div>
                             <div class="product-prize">$122.00</div>
@@ -91,7 +92,7 @@
                 </div>
                 <div class="col-3 product-list">
                     <div class="product-item">
-                        <img src="./image/machine.png" alt="" class="product-img">
+                        <img src="./images/machine.png" alt="" class="product-img">
                         <div class="product-group">
                             <div class="product-content">Aliquam Quaerat Voluptatem</div>
                             <div class="product-prize">$122.00</div>
@@ -109,51 +110,87 @@
             <div class="container news">
                 <div class="row">
                     <div class="container-news col-8">
-                        <ul class=" news-list">
-                            <li class="dayOfNews">15/01/2021</li>
+                       
+                        <ul class="news-list">
+                            <li class="dayOfNews">17/03/2021 11:45</li>
                             <li class="subject-news">
-                                <button class="btn btn-block btn-info">nghề nghiệp</button>
+                                <button class="btn btn-block btn-info">Tin mới nhất</button>
                             </li>
-                            <li class="title-news">For a specific research, insert the keywords (e.g. International Criminal Court; landmines treaty</li>
+                            <li class="title-news">Nghệ An: Xuyên đêm chặn dịch tả lợn Châu Phi</li>
                         </ul>
                         <ul class="news-list">
-                            <li class="dayOfNews">15/01/2021</li>
+                            <li class="dayOfNews">12/03/2021 15:28</li>
                             <li class="subject-news">
-                                <button class="btn btn-block btn-info">nghề nghiệp</button>
+                                <button class="btn btn-block btn-info">Tin mới nhất</button>
                             </li>
-                            <li class="title-news">For a specific research, insert the keywords (e.g. International Criminal Court; landmines treaty</li>
+                            <li class="title-news">Dịch tả lợn Châu Phi là xúc tác gây đại dịch Covid19?</li>
                         </ul>
                         <ul class="news-list">
-                            <li class="dayOfNews">15/01/2021</li>
+                            <li class="dayOfNews">03/03/2021 09:40</li>
                             <li class="subject-news">
-                                <button class="btn btn-block btn-info">nghề nghiệp</button>
+                                <button class="btn btn-block btn-info">Tin mới nhất</button>
                             </li>
-                            <li class="title-news">For a specific research, insert the keywords (e.g. International Criminal Court; landmines treaty</li>
-                        </ul>
-                        <ul class="news-list">
-                            <li class="dayOfNews">15/01/2021</li>
-                            <li class="subject-news">
-                                <button class="btn btn-block btn-info">nghề nghiệp</button>
-                            </li>
-                            <li class="title-news">For a specific research, insert the keywords (e.g. International Criminal Court; landmines treaty</li>
+                            <li class="title-news">Không thể mãi giải cứu nông sản</li>
                         </ul>
                         
                     </div>
 
                     <div class="box-chat col-4">
-                        <div class="message-box">
+                       
 
-                        </div>
+                                <div class="chatbox">
+                                    <div class="chatbox__support">
+                                        <div class="chatbox__header">
+                                            <div class="chatbox__image--header">
+                                                <img src="./images/image.png" alt="image">
+                                            </div>
+                                            <div class="chatbox__content--header">
+                                                <h4 class="chatbox__heading--header">Chat support</h4>
+                                                <p class="chatbox__description--header">Food Waste Processor</p>
+                                            </div>
+                                        </div>
+                                        <div class="chatbox__messages">
+                                            <div>
+                                                <div class="messages__item messages__item--visitor">
+                                                    Can you let me talk to the support?
+                                                </div>
+                                                
+                                                <div class="messages__item messages__item--typing">
+                                                    <span class="messages__dot"></span>
+                                                    <span class="messages__dot"></span>
+                                                    <span class="messages__dot"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chatbox__footer">
+                                            <img src="./images/icons/emojis.svg" alt="">
+                                            <img src="./images/icons/microphone.svg" alt="">
+                                            <input type="text" placeholder="Write a message...">
+                                            <p class="chatbox__send--footer">Send</p>
+                                            <img src="./images/icons/attachment.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <!-- <div class="chatbox__button">
+                                        <button>button</button>
+                                    </div> -->
+                                    <div class="wrapper">
+                                        <div class="btn">
+                                            <button type="button">
+                                                <img src="./images/messenger.png" alt="" class="mess-icon">
+                                                <span>Chat với chúng tôi</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            <script src="./Chat.js"></script>
+                            <script src="./app.js"></script>
+                    
+                        <!-- end chat box -->
+            
+
                         <!-- <div class="fa-messenger">
                         </div> -->
-                        <div class="wrapper">
-                            <div class="btn">
-                                <button type="button">
-                                    <img src="./image/messenger.png" alt="" class="mess-icon">
-                                    <span>Chat với chúng tôi</span>
-                                </button>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -214,20 +251,20 @@
                 <div class="col-7 adress">
                     <div class="adress-info">
                         <ul class="adress-info-list">
-                            <li class="adress-info-item" style="font-weight: 500;">EWP</li>
+                            <li class="adress-info-item" style="font-weight: 500;">Food Waste Processor</li>
                             <li class="adress-info-item">
                                 <i class="fas fa-school"></i>
-                                Đại học Duy Tân</li>
+                                Đại học Duy Tân, Trường Công Nghệ</li>
                             <li class="adress-info-item">    
                                 <i class="fas fa-map-marker-alt"></i>
-                                254 Nguyễn Văn Linh
+                                Hoàng Minh Thảo, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng
                             </li>
                         </ul>
                     </div>
                     <div class="adress-phone">
                        <ul class="adress-phone-list">
-                            <li class="adress-phone-text">Liên hệ với EWP</li>
-                            <li class="adress-phone-phone">08234789</li>
+                            <li class="adress-phone-text">CEO Nguyễn Văn Hoàng Long</li>
+                            <li class="adress-phone-phone">0905 93 94 26</li>
                        </ul>
                        
                     </div>
@@ -245,8 +282,8 @@
                         <div class="footer-media-item">
                         <span >Phương tiện truyền thông xã hội</span>
                         
-                           <img src="./image/facebook (1).png" alt="">
-                           <img src="./image/youtube (1).png" alt="">
+                           <img src="./images/facebook (1).png" alt="">
+                           <img src="./images/youtube (1).png" alt="">
                        </div>            
                     </li>
                   
@@ -260,7 +297,7 @@
                         <li class="dienKhoan" >Thị trường ngoài</li>
                     </div>
                     <li class=" dienKhoan2" style="list-style:none">
-                        Copyright © EWP HOLDINGS CO., LTD. All rights reserved.      
+                        Copyright © FWP HOLDINGS CO., LTD. All rights reserved.      
                     </li>
                   
                 </ul>

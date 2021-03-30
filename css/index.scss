@@ -143,7 +143,8 @@ html {
             font-weight:400;
         }
         .dayOfNews{
-
+            //border-right: 1px solid #444;
+            margin-right: 20px;
         }
         .subject-news{
             .btn{
@@ -157,16 +158,8 @@ html {
 
 //box chat
 .box-chat{
-    //background-color: rgb(163, 163, 163);
-    //height:400px;
-    display: flex;
-    align-items: flex-end;
-    .message-box{
-        //height:300px;
-        width: 100%;
-        //background-color:#701616;
-    }
     .wrapper{
+        padding-left: 63px;
         font-family: 'Poppins', sans-serif; 
         justify-content: flex-end;
         .mess-icon{
