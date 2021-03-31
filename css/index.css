@@ -26,8 +26,8 @@ html {
 }
 
 .header-nav {
-  width: 80%;
-  height: 80px;
+  width: 75%;
+  height: 85px;
   background-color: white;
   padding: 0;
   display: -webkit-box;
@@ -43,6 +43,7 @@ html {
 }
 
 .header-nav .logo img {
+  padding-top: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,15 +60,33 @@ html {
   padding: 0;
 }
 
-.header-nav .header-list .header-item {
+.header-nav .header-list .header-item-center, .header-nav .header-list .header-item {
   font-weight: 400;
   padding: 0 20px;
   list-style: none;
   color: #333333;
-  font-size: 16px;
+  font-size: 15px;
+  position: relative;
 }
 
-.header-nav .header-list li.header-item:hover {
+.header-nav .header-list .header-item {
+  padding-top: 17px;
+}
+
+.header-nav .header-list .header-item .header-item--icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-nav .header-list .header-item .header-item--icon i {
+  color: rgba(121, 118, 118, 0.432);
+}
+
+.header-nav .header-list li.header-item:hover, .header-nav .header-list li.header-item-center:hover {
   cursor: pointer;
   color: #d71d36;
 }
@@ -79,11 +98,11 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
 }
 
-.slide-video .video {
-  height: 500px;
-  width: 100%;
+.slide-video .carousel img {
+  height: 600px;
 }
 
 .product {
@@ -140,6 +159,7 @@ html {
 .product-item:hover {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
+  color: #dc1e37;
 }
 
 .news {
@@ -179,12 +199,17 @@ html {
 }
 
 .news .news-list .dayOfNews {
+  font-size: 13px;
   margin-right: 20px;
 }
 
 .news .news-list .subject-news .btn {
   width: 100px;
-  font-size: 11px;
+  font-size: 12px;
+}
+
+.news .news-list .title-news {
+  font-size: 13px;
 }
 
 .box-chat .wrapper {
@@ -261,8 +286,12 @@ html {
 
 .footer .footer-about .adress-info .adress-info-item {
   list-style: none;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 300;
+}
+
+.footer .footer-about .adress-info .adress-info-item:nth-child(1) {
+  font-size: 16px;
 }
 
 .footer .footer-about .adress-info .adress-info-item .fas {
@@ -288,7 +317,7 @@ html {
 
 .footer .footer-about .adress-phone-list .adress-phone-text {
   list-style: none;
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 20px;
 }
 
@@ -349,7 +378,7 @@ html {
 }
 
 .footer .footer-conten-list1 .footer-media .footer-media-item span {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .footer .footer-conten-list1 .footer-media .footer-media-item img {
